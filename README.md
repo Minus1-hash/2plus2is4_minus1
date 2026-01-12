@@ -1,20 +1,21 @@
 # 2plus2is4_minus1
 # Blind Man's Stick (Arduino)
 
-This project is an Arduino-based smart stick designed to help visually impaired people
-detect obstacles using sensors and alerts.
+Its an Arduino UNO smart blind man stick.
+## Connections ##
+## HC-SR04 Pin	Arduino Pin
+VCC-5V
+GND-GND
+TRIG-D5
+ECHO-A0
 
-## Features
-- Obstacle detection
-- Buzzer / vibration alert
-- Arduino-based system
+## LED
+Anode (+)	D6 (via 220Ω resistor)
+Cathode (–)	GND
 
 ## Components Used
 - Arduino board
 - Ultrasonic sensor
-- Buzzer / vibration motor
+- LED (I didnt have a buzzer at the time and had to compromise, using a buzzer is recommended)
 - Battery
-
-## Status
-Work in progress
 
