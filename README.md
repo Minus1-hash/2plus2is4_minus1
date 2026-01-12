@@ -1,7 +1,7 @@
 # 2plus2is4_minus1
 # Blind Man's Stick (Arduino)
 
-Its an Arduino UNO smart blind man stick.
+Its an Arduino UNO smart blind man stick. Dont forget to use the arduino software
 ## Connections ##
 ## HC-SR04 Pin	Arduino Pin
 VCC-5V
